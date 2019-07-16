@@ -5,8 +5,19 @@
   "engines": {
     "node": ">=6"
   },
+  "now": {
+    "name": "egghead-loopback",
+    "alias": ["egghead-loopback"],
+    "env": {
+      "MONGODB_URL": "@mongodb-url",
+      "NODE_ENV": "production"
+    }
+  },
   "scripts": {
     "dev": "nodemon server/server.js --watch common --watch server",
+    "now:deploy": "now",
+    "now:alias": "now alias",
+    "now": "npm run now:deploy && npm run now:alias"
     "lint": "eslint .",
     "start": "node .",
     "test": "NODE_ENV=test mocha test/**/*.test.js",
