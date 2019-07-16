@@ -1,0 +1,34 @@
+{
+  "ids": {
+    "User": 2,
+    "AccessToken": 2,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Product": 8,
+    "Category": 3
+  },
+  "models": {
+    "User": {
+      "1": "{\"password\":\"$2a$10$so.M97YFgun.KDZg2jrPzueXonuedcSBThVZKNmUpPybHqavlshWG\",\"email\":\"admin@example.com\",\"id\":1}"
+    },
+    "AccessToken": {
+      "JGYFIa5fgCwtKC5mQvWSvBMCYi2nFwVX4eCz0hpimx6zqiTJhfMgEdArzOVDaPgX": "{\"id\":\"JGYFIa5fgCwtKC5mQvWSvBMCYi2nFwVX4eCz0hpimx6zqiTJhfMgEdArzOVDaPgX\",\"ttl\":1209600,\"created\":\"2019-07-16T17:09:07.181Z\",\"userId\":1}"
+    },
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Product": {
+      "1": "{\"name\":\"potion\",\"price\":399,\"id\":1,\"categoryId\":1}",
+      "2": "{\"name\":\"hi-potion\",\"price\":599,\"id\":2,\"categoryId\":1}",
+      "3": "{\"name\":\"soda\",\"price\":250,\"id\":3,\"categoryId\":2}",
+      "5": "{\"name\":\"Bandages\",\"price\":280,\"categoryId\":1,\"id\":5}",
+      "6": "{\"name\":\"Sparkling-Fiji\",\"price\":700,\"categoryId\":2,\"id\":6}",
+      "7": "{\"name\":\"Moo-Moo-Milk\",\"price\":850,\"categoryId\":2,\"id\":7}"
+    },
+    "Category": {
+      "1": "{\"name\":\"Med-Supplies\",\"id\":1}",
+      "2": "{\"name\":\"Drinks\",\"id\":2}"
+    }
+  }
+}
