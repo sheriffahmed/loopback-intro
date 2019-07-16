@@ -1,19 +1,20 @@
 {
   "ids": {
     "User": 2,
-    "AccessToken": 2,
+    "AccessToken": 3,
     "ACL": 1,
     "RoleMapping": 1,
     "Role": 1,
     "Product": 8,
-    "Category": 3
+    "Category": 5
   },
   "models": {
     "User": {
       "1": "{\"password\":\"$2a$10$so.M97YFgun.KDZg2jrPzueXonuedcSBThVZKNmUpPybHqavlshWG\",\"email\":\"admin@example.com\",\"id\":1}"
     },
     "AccessToken": {
-      "JGYFIa5fgCwtKC5mQvWSvBMCYi2nFwVX4eCz0hpimx6zqiTJhfMgEdArzOVDaPgX": "{\"id\":\"JGYFIa5fgCwtKC5mQvWSvBMCYi2nFwVX4eCz0hpimx6zqiTJhfMgEdArzOVDaPgX\",\"ttl\":1209600,\"created\":\"2019-07-16T17:09:07.181Z\",\"userId\":1}"
+      "JGYFIa5fgCwtKC5mQvWSvBMCYi2nFwVX4eCz0hpimx6zqiTJhfMgEdArzOVDaPgX": "{\"id\":\"JGYFIa5fgCwtKC5mQvWSvBMCYi2nFwVX4eCz0hpimx6zqiTJhfMgEdArzOVDaPgX\",\"ttl\":1209600,\"created\":\"2019-07-16T17:09:07.181Z\",\"userId\":1}",
+      "s3cr3t": "{\"id\":\"s3cr3t\",\"userId\":1}"
     },
     "ACL": {},
     "RoleMapping": {},
@@ -28,7 +29,9 @@
     },
     "Category": {
       "1": "{\"name\":\"Med-Supplies\",\"id\":1}",
-      "2": "{\"name\":\"Drinks\",\"id\":2}"
+      "2": "{\"name\":\"Drinks\",\"id\":2}",
+      "3": "{\"name\":\"Foods\",\"id\":3}",
+      "4": "{\"name\":\"Food\",\"id\":4}"
     }
   }
 }
